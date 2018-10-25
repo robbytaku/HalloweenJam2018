@@ -7,7 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "8142a958-6518-48d3-b9ba-53ecba82033c"
+
     ],
     "IsDnD": true,
     "layers": [
@@ -25,7 +25,11 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
+<<<<<<< HEAD:HJ_Prototype/rooms/protoStage1/protoStage1.yy
 {"name": "inst_4B8136B7","id": "8142a958-6518-48d3-b9ba-53ecba82033c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4B8136B7","objId": "3aa9b2b3-f684-4496-81bf-e3ef36601119","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 960,"y": 704}
+=======
+
+>>>>>>> parent of d6832e1... Proto_Changelog1:HJ_Prototype/rooms/room0/room0.yy
             ],
             "layers": [
 
@@ -87,12 +91,12 @@
     },
     "roomSettings":     {
         "id": "e3ac6066-cd6d-4708-af58-b9f96e068d60",
-        "Height": 1080,
+        "Height": 768,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1920
+        "Width": 1024
     },
     "mvc": "1.0",
     "views": [
