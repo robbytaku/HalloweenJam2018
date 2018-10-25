@@ -1,6 +1,6 @@
 
 {
-    "name": "protoStage1",
+    "name": "room0",
     "id": "00ac7aea-7b41-4bae-bfb1-b0b256d0687f",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -26,10 +26,14 @@
             "inheritVisibility": false,
             "instances": [
 <<<<<<< HEAD:HJ_Prototype/rooms/protoStage1/protoStage1.yy
+<<<<<<< HEAD:HJ_Prototype/rooms/protoStage1/protoStage1.yy
 {"name": "inst_4B8136B7","id": "8142a958-6518-48d3-b9ba-53ecba82033c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4B8136B7","objId": "3aa9b2b3-f684-4496-81bf-e3ef36601119","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 960,"y": 704}
 =======
 
 >>>>>>> parent of d6832e1... Proto_Changelog1:HJ_Prototype/rooms/room0/room0.yy
+=======
+{"name": "inst_4B8136B7","id": "8142a958-6518-48d3-b9ba-53ecba82033c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4B8136B7","objId": "3aa9b2b3-f684-4496-81bf-e3ef36601119","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1536,"y": 448}
+>>>>>>> parent of a7b258b... Proto_Changelog2:HJ_Prototype/rooms/room0/room0.yy
             ],
             "layers": [
 
