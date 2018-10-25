@@ -34,7 +34,7 @@
             "Key": "00ac7aea-7b41-4bae-bfb1-b0b256d0687f",
             "Value": {
                 "id": "f5b3a687-bc4d-46db-81cc-0d177d3f0d3f",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\protoStage1\\protoStage1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -103,11 +103,27 @@
             }
         },
         {
+            "Key": "56e8a5ef-ab5c-468c-bbcd-6262f192ab06",
+            "Value": {
+                "id": "abf07d84-925e-4853-8565-3d5812ef21f4",
+                "resourcePath": "sprites\\spriteBullet\\spriteBullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83ab1d16-9061-4077-8f5d-e674b90a2afa",
             "Value": {
                 "id": "30801868-d882-4b38-9664-29cda31d7842",
                 "resourcePath": "views\\83ab1d16-9061-4077-8f5d-e674b90a2afa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "85677c1f-b05a-4ddc-9aa0-2679db3207a4",
+            "Value": {
+                "id": "98976358-32cf-45a0-a156-1071440d93e4",
+                "resourcePath": "objects\\gunFire\\gunFire.yy",
+                "resourceType": "GMObject"
             }
         },
         {
