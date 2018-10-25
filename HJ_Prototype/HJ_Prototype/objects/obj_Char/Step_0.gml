@@ -4,4 +4,13 @@ if (keyboard_check(ord("A"))) x = x - 15;
 if (keyboard_check(ord("W"))) y = y - 15;
 if (keyboard_check(ord("S"))) y = y + 15;
 
-image_angle = point_direction(x,y,mouse_x,mouse_y)
+image_angle = point_direction(x,y,mouse_x,mouse_y);
+
+//shoot 
+if (mouse_check_button(mb_left)) && (cooldown < 1)
+{
+	instance_create_layer(x,y,"bullet_layer",obj_bullet)
+	cooldown = 7;
+}
+
+cooldown = cooldown - 1;
