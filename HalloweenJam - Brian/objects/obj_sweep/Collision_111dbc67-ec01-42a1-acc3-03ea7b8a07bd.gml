@@ -1,6 +1,5 @@
-with(other)
+/*with(other)
 {
-	hp = hp -1;
-}
+	hp = hp - 0.1;
+}*/
 
-instance_destroy();
