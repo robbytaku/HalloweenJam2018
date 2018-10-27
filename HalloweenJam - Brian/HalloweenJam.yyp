@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "87d73acf-17c1-4ea6-b1f2-3824085cb991",
+            "Value": {
+                "id": "3d03deed-cc60-4d31-8f98-6895b8da9132",
+                "resourcePath": "sprites\\spr_potionBreaking\\spr_potionBreaking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8b04bd57-68fc-4be0-84ca-ed53a98fa7f3",
             "Value": {
                 "id": "3efae9e7-73fd-47e4-82a9-a88e5a23f315",
