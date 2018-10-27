@@ -4,26 +4,7 @@
     "mvc": "1.0",
     "name": "obj_pumpkin",
     "eventList": [
-        {
-            "id": "ed788d9b-9b10-4a11-9eb8-ffdcd66e9542",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "791ba4bf-8c8c-4802-b0a2-6ea9da429057",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "a961ac4d-16db-49c7-b27f-fbd8a0e60956"
-        },
-        {
-            "id": "fc544e2a-5fc9-46d0-906d-190df2359821",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "4788d694-4bac-4fb8-a4ae-a44fc30450db",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "a961ac4d-16db-49c7-b27f-fbd8a0e60956"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -57,7 +38,7 @@
             "varType": 0
         }
     ],
-    "solid": true,
+    "solid": false,
     "spriteId": "44583b35-0b88-4897-8187-4768a3aadc4c",
     "visible": true
 }
