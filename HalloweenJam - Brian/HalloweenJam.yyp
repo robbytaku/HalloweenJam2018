@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "7de86852-0f69-421b-8196-3cb75e2717c4",
+            "Value": {
+                "id": "18bc9947-c81e-4abb-922c-84e716b7339e",
+                "resourcePath": "rooms\\room_graveyard1\\room_graveyard1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8163777e-4b05-4629-a2a7-acffc59beb24",
             "Value": {
                 "id": "279907df-056c-49f8-86d4-89eff5b91c11",
