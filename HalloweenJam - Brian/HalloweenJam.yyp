@@ -554,7 +554,7 @@
             "Key": "e989a81b-e633-44cc-bfa3-f3e595ed7dba",
             "Value": {
                 "id": "f47be867-f137-4e91-91d9-ebcc7a1c273c",
-                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourcePath": "objects\\obj_ghost\\obj_ghost.yy",
                 "resourceType": "GMObject"
             }
         },
