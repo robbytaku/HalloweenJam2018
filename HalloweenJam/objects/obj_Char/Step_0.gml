@@ -13,9 +13,37 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
 
 cooldown = cooldown - 1;
 
-switch((((direction + 22.5) mod 360) + 360) mod 360) div 90 {
-	case 0: sprite_index = spr_left; break;
-	case 1: sprite_index = spr_down; break;
-	case 2: sprite_index = spr_right; break;
-	case 3: sprite_index = spr_up; break;
-	}
+switch(round(point_direction(x,y,mouse_x,mouse_y)/45)){
+    case 8:
+        //Facing right
+		sprite_index = spr_right
+        break;
+    case 1:
+        //Facing upright
+		sprite_index = spr_up
+        break;
+    case 2:
+        //Facing up
+		sprite_index = spr_up
+        break;
+    case 3:
+        //Facing upleft
+		sprite_index = spr_up
+        break;
+    case 4:
+        //Facing left
+		sprite_index = spr_left
+        break;
+    case 5:
+        //Facing downleft
+		sprite_index = spr_left
+        break;
+    case 6:
+        //Facing down
+		sprite_index = spr_down
+        break;
+    case 7:
+        //Facing downright
+		sprite_index = spr_right
+        break;
+}
