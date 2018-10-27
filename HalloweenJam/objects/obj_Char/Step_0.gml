@@ -12,3 +12,10 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
 }
 
 cooldown = cooldown - 1;
+
+switch((((direction + 22.5) mod 360) + 360) mod 360) div 90 {
+	case 0: sprite_index = spr_left; break;
+	case 1: sprite_index = spr_down; break;
+	case 2: sprite_index = spr_right; break;
+	case 3: sprite_index = spr_up; break;
+	}
