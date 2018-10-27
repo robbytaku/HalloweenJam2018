@@ -1,8 +1,7 @@
-if (instance_exists(obj_Char))
+if (instance_exists(obj_charBody))
 {
-	move_towards_point(obj_Char.x, obj_Char.y, spd)
+	move_towards_point(obj_charBody.x, obj_charBody.y, spd)
 }
 
-image_angle = point_direction(1,1,1,1);
 
 if (hp <= 0) instance_destroy();
