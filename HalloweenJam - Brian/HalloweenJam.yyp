@@ -231,11 +231,27 @@
             }
         },
         {
+            "Key": "6d33a14b-1b23-482a-8715-3d8c843646b8",
+            "Value": {
+                "id": "03c8150c-21cb-4a0b-a63a-60ce9ec900fd",
+                "resourcePath": "objects\\obj_pillar\\obj_pillar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6ec09501-70f7-4544-a743-637f44c0c161",
             "Value": {
                 "id": "705f1d10-c1a3-403c-a546-c5a9ece76865",
                 "resourcePath": "views\\6ec09501-70f7-4544-a743-637f44c0c161.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "701346fb-0d87-4bb1-8d5d-b900c720b0e7",
+            "Value": {
+                "id": "3252f458-c242-4117-818e-82ed61c00d18",
+                "resourcePath": "objects\\obj_fence\\obj_fence.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -340,6 +356,14 @@
                 "id": "7e989689-4a49-4339-a5a6-72e2752512fc",
                 "resourcePath": "sprites\\spr_bodyLeft\\spr_bodyLeft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9b818e1b-296f-4db7-b32e-c72013dfe5cc",
+            "Value": {
+                "id": "84d3ed01-27d6-4319-baa7-3c24e5d21f25",
+                "resourcePath": "objects\\obj_fenceDown\\obj_fenceDown.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -492,6 +516,14 @@
                 "id": "f47be867-f137-4e91-91d9-ebcc7a1c273c",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb8e3cb1-c0fb-466f-8d99-a5f97be3c0f8",
+            "Value": {
+                "id": "b0ea0da3-2b77-4a28-be3f-0a88b583d514",
+                "resourcePath": "sprites\\spr_fenceDown\\spr_fenceDown.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

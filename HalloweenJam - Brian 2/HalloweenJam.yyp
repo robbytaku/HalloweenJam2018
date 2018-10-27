@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "4fb45514-82ce-4f07-ad28-f83d4a575705",
+            "Value": {
+                "id": "a2c3d36c-0ab4-4937-a1b2-3b767b233f43",
+                "resourcePath": "sprites\\spr_grass\\spr_grass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "515817b8-4559-47f3-95df-221f98c6ec18",
             "Value": {
                 "id": "e3c95551-8c40-43c1-98d8-03d37de9e3a1",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "60989603-edb9-452d-bec1-920908c4a79f",
+            "Value": {
+                "id": "e1bfcd81-33b6-4cea-ad20-34e7bab5823a",
+                "resourcePath": "sprites\\spr_fencePole\\spr_fencePole.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68764a49-a0c9-4273-b2c0-278006b93766",
             "Value": {
                 "id": "695d10a0-5d80-408c-a2f3-188ea02e23cc",
@@ -207,11 +223,35 @@
             }
         },
         {
+            "Key": "6b834f01-7c94-4e4f-b2cf-30ca790555c7",
+            "Value": {
+                "id": "223ee97e-762a-490f-8183-344974d4f04a",
+                "resourcePath": "sprites\\spr_fence\\spr_fence.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6d33a14b-1b23-482a-8715-3d8c843646b8",
+            "Value": {
+                "id": "03c8150c-21cb-4a0b-a63a-60ce9ec900fd",
+                "resourcePath": "objects\\obj_pillar\\obj_pillar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6ec09501-70f7-4544-a743-637f44c0c161",
             "Value": {
                 "id": "705f1d10-c1a3-403c-a546-c5a9ece76865",
                 "resourcePath": "views\\6ec09501-70f7-4544-a743-637f44c0c161.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "701346fb-0d87-4bb1-8d5d-b900c720b0e7",
+            "Value": {
+                "id": "3252f458-c242-4117-818e-82ed61c00d18",
+                "resourcePath": "objects\\obj_fence\\obj_fence.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -410,7 +450,7 @@
             "Key": "c80514f1-95f5-469a-a0c6-e01fb6d71ddb",
             "Value": {
                 "id": "9de53867-f623-430f-a164-3c7940478d62",
-                "resourcePath": "objects\\obj_fence\\obj_fence.yy",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
                 "resourceType": "GMObject"
             }
         },

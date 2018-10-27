@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_stump",
     "eventList": [
-        {
-            "id": "dd3138f2-35cc-437f-a1f3-8ac6d97f380c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "791ba4bf-8c8c-4802-b0a2-6ea9da429057",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "7ad40810-fd3f-4c51-9d5b-795976c5998a"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -1,8 +1,8 @@
 {
-    "id": "a961ac4d-16db-49c7-b27f-fbd8a0e60956",
+    "id": "6d33a14b-1b23-482a-8715-3d8c843646b8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pumpkin",
+    "name": "obj_pillar",
     "eventList": [
         
     ],
@@ -22,23 +22,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "c04157c2-ce20-46d8-b945-cec6730ff017",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "variable_name",
-            "varType": 0
-        }
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "44583b35-0b88-4897-8187-4768a3aadc4c",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

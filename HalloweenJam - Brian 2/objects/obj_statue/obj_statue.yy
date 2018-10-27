@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_statue",
     "eventList": [
-        {
-            "id": "4aa2fdb6-6184-459b-a1f1-c229619ce4ce",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "791ba4bf-8c8c-4802-b0a2-6ea9da429057",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "df0671a8-258b-4708-8904-3bfcfe1f42c8"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

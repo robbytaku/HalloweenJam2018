@@ -1,8 +1,8 @@
 {
-    "id": "a961ac4d-16db-49c7-b27f-fbd8a0e60956",
+    "id": "9b818e1b-296f-4db7-b32e-c72013dfe5cc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pumpkin",
+    "name": "obj_fenceDown",
     "eventList": [
         
     ],
@@ -22,23 +22,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "c04157c2-ce20-46d8-b945-cec6730ff017",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "variable_name",
-            "varType": 0
-        }
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "44583b35-0b88-4897-8187-4768a3aadc4c",
+    "spriteId": "eb8e3cb1-c0fb-466f-8d99-a5f97be3c0f8",
     "visible": true
 }

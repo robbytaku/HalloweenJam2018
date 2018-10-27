@@ -1,10 +1,19 @@
 {
-    "id": "a961ac4d-16db-49c7-b27f-fbd8a0e60956",
+    "id": "c80514f1-95f5-469a-a0c6-e01fb6d71ddb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pumpkin",
+    "name": "obj_wall",
     "eventList": [
-        
+        {
+            "id": "a6031bcb-a4d5-4d9b-af83-17595c7135de",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "791ba4bf-8c8c-4802-b0a2-6ea9da429057",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "c80514f1-95f5-469a-a0c6-e01fb6d71ddb"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "c04157c2-ce20-46d8-b945-cec6730ff017",
+            "id": "9830cdaf-6564-4509-975b-45fae8f60cc0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -39,6 +48,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "44583b35-0b88-4897-8187-4768a3aadc4c",
+    "spriteId": "e429bdf9-5ff8-45e2-9f2f-a3112d2b8ba2",
     "visible": true
 }

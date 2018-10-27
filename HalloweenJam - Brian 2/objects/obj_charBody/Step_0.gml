@@ -1,7 +1,7 @@
-if (keyboard_check(ord("D")) and !place_meeting(x + 1, y, obj_fence)) x += 4;
-if (keyboard_check(ord("A")) and !place_meeting(x - 1, y, obj_fence)) x -= 4;
-if (keyboard_check(ord("W")) and !place_meeting(x, y - 1, obj_fence)) y -= 4;
-if (keyboard_check(ord("S")) and !place_meeting(x, y + 1, obj_fence)) y += 4;
+objif (keyboard_check(ord("D")) and !place_meeting(x + 1, y, obj_wall)) x += 4;
+if (keyboard_check(ord("A")) and !place_meeting(x - 1, y, obj_wall)) x -= 4;
+if (keyboard_check(ord("W")) and !place_meeting(x, y - 1, obj_wall)) y -= 4;
+if (keyboard_check(ord("S")) and !place_meeting(x, y + 1, obj_wall)) y += 4;
 
 
 if (keyboard_check(ord("D"))) sprite_index = spr_bodyRight
