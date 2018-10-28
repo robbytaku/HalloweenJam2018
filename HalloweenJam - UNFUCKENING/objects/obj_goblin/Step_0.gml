@@ -9,4 +9,11 @@ if (move_bounce_solid(obj_goblin)){
 	move_towards_point(x= -x,y = -y,spd)
 } 
 
+if (place_meeting(x,y,obj_potionBreaking) and hitPotion == 0)
+{
+	hp -= 2;
+	alarm[1] = 30;
+	hitPotion = 1; 
+}
+
 if (hp <= 0) instance_destroy();

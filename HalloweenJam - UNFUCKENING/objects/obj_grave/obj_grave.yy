@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_grave",
     "eventList": [
-        {
-            "id": "73cfbaed-bf4b-40cd-9997-22653cf5ba95",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "791ba4bf-8c8c-4802-b0a2-6ea9da429057",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "0a03f921-8869-46fd-a9c6-6c4acadd1695"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

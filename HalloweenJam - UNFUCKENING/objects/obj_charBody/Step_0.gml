@@ -21,7 +21,7 @@ if ((mouse_check_button(mb_right)) and cooldown < 1 and dead == false)
 if ((mouse_check_button(mb_left)) and cooldown < 1 and dead == false)
 {
 	instance_create_layer(x,y,"Bullets",obj_sweep)
-	cooldown = 36;
+	cooldown = 30;
 	punchypunch *= -1;
 }
 

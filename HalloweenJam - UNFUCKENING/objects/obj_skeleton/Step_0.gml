@@ -14,6 +14,13 @@ if (instance_exists(obj_charBody)){
 }
 move_bounce_solid(sprite_index = spr_skeletonRunning);
 
+if (place_meeting(x,y,obj_potionBreaking) and hitPotion == 0)
+{
+	hp -= 2;
+	alarm[1] = 30;
+	hitPotion = 1; 
+}
+
 cooldown -= 1;
 
 if (hp <= 0) instance_destroy();
