@@ -14,7 +14,7 @@ repeat(buttons) {
 
 if (menu_index != last_selected) {
 	//audio_play_sound(snd_menu_switch, 1, false);
-	part_particles_create(particle_effects, menu_x, menu_y + button_h/2 + (button_h + button_padding) * menu_index, box_flash, 1);
+	part_particles_create(particle_effects, menu_x + 127.5, menu_y + button_h/2 + (button_h + button_padding) * menu_index, box_flash, 1);
 }
 
 last_selected = menu_index;
@@ -26,12 +26,6 @@ case 0:
 	room_goto(room_lobby);
 	break;
 case 1:
-	room_goto(room_contols);
-	break;
-case 2:
-	room_goto(room_options);
-	break;
-case 3:
 	game_end();
 	break;
 }

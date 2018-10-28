@@ -6,9 +6,7 @@ button_padding = 8;
 
 
 button[0] = "New Game";
-button[1] = "Controls";
-button[2] = "Options";
-button[3] = "Exit";
+button[1] = "Exit";
 buttons = array_length_1d(button);
 
 menu_index = 0;
@@ -30,4 +28,3 @@ part_type_color3(box_flash, make_color_rgb(255, 153, 55), make_color_rgb(118, 50
 part_type_alpha3(box_flash, .3, 0.5, 0);
 part_type_blend(box_flash, true);
 part_type_life(box_flash, 20, 20);
-

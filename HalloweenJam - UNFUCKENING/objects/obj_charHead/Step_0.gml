@@ -1,5 +1,5 @@
 x = obj_charBody.x
-y = obj_charBody.y - 16
+y = obj_charBody.y - 24
 
 
 
