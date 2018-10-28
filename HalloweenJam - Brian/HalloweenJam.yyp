@@ -71,11 +71,35 @@
             }
         },
         {
+            "Key": "06709a3a-cde5-453d-8dd1-d9498dd757ea",
+            "Value": {
+                "id": "032ad8c9-8116-4615-8214-c15a4bd06235",
+                "resourcePath": "objects\\obj_sekeleton\\obj_sekeleton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a03f921-8869-46fd-a9c6-6c4acadd1695",
             "Value": {
                 "id": "cf735663-87c9-4660-ba15-e5bd96f61ecb",
                 "resourcePath": "objects\\obj_grave\\obj_grave.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "12a170f7-70b7-48d4-8d23-07dc9a565673",
+            "Value": {
+                "id": "a5e63cb8-1080-40b4-9f14-304481f9505d",
+                "resourcePath": "sprites\\spr_bone\\spr_bone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "14a127ff-ea4c-43de-9cd5-4c6a8431fbdf",
+            "Value": {
+                "id": "bb9b84b9-ef76-4c71-b7ba-cdbf614e8ee4",
+                "resourcePath": "sprites\\spr_skeleton\\spr_skeleton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -548,6 +572,14 @@
                 "id": "1699411e-3074-48c7-aa0a-69bb2ecee475",
                 "resourcePath": "sprites\\spr_statue\\spr_statue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "db11f27b-50b8-4542-8269-bd20d2fede2e",
+            "Value": {
+                "id": "4db78236-be65-47e8-93ed-a52aa39c30cd",
+                "resourcePath": "objects\\obj_bone\\obj_bone.yy",
+                "resourceType": "GMObject"
             }
         },
         {
