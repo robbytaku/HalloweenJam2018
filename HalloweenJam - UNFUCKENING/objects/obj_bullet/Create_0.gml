@@ -4,3 +4,6 @@ direction = direction + random_range(-8,8);
 speed = 3;
 image_angle = direction;
 alarm[0] = 120;
+
+audio_play_sound(snd_potion, 0 ,false);
+audio_sound_pitch(snd_potion, 2);
