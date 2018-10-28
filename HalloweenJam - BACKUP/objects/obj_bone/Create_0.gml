@@ -1,3 +1,4 @@
 direction = point_direction(x,y,obj_charBody.x,obj_charBody.y)
-direction = direction = random_range (-5,5);
-speed = 4;
+direction -= random_range (-8,8);
+speed = 3;
+image_angle = direction;
