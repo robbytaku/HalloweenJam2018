@@ -1,4 +1,4 @@
-menu_move = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
+menu_move = mouse_wheel_down() - mouse_wheel_up();
 
 menu_index += menu_move;
 
@@ -19,3 +19,20 @@ if (menu_index != last_selected) {
 
 last_selected = menu_index;
 
+if (mouse_check_button(mb_left)) {
+switch(menu_index) {
+
+case 0:
+	room_goto(room_lobby);
+	break;
+case 1:
+	room_goto(room_contols);
+	break;
+case 2:
+	room_goto(room_options);
+	break;
+case 3:
+	game_end();
+	break;
+}
+}
