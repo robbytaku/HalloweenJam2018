@@ -1,7 +1,7 @@
-if (keyboard_check(ord("D")) and !place_meeting(x + 1, y, obj_wall) and dead == false) x += 4;
-if (keyboard_check(ord("A")) and !place_meeting(x - 1, y, obj_wall) and dead == false) x -= 4;
-if (keyboard_check(ord("W")) and !place_meeting(x, y - 1, obj_wall) and dead == false) y -= 4;
-if (keyboard_check(ord("S")) and !place_meeting(x, y + 1, obj_wall) and dead == false) y += 4;
+if (keyboard_check(ord("D")) and !place_meeting(x + 8, y, obj_wall) and dead == false) x += 4;
+if (keyboard_check(ord("A")) and !place_meeting(x - 8, y, obj_wall) and dead == false) x -= 4;
+if (keyboard_check(ord("W")) and !place_meeting(x, y - 8, obj_wall) and dead == false) y -= 4;
+if (keyboard_check(ord("S")) and !place_meeting(x, y + 8, obj_wall) and dead == false) y += 4;
 
 
 if (keyboard_check(ord("D"))) sprite_index = spr_bodyRight;
@@ -54,5 +54,6 @@ if (dead == true)
 {
 	image_alpha = 0;
 	obj_charHead.image_alpha = 0;
+	audio_stop_all();
+	room_goto(room_credits);
 }
-

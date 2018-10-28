@@ -7,7 +7,8 @@ repeat(buttons) {
 	
 	xx = menu_x;
 	yy = menu_y + (button_h + button_padding) * i + 256 * (1-unfold[i]);
-	draw_set_color(c_white);
+	dark = make_color_rgb(30, 23, 38);
+	draw_set_color(dark);
 	draw_rectangle(xx, yy, xx + button_w, yy + button_h, false);
 	
 	draw_set_color(c_dkgray);
