@@ -14,7 +14,7 @@ menu_index = 0;
 last_selected = 0;
 
 var i = 0;
-repeat (buttons) {
+repeat(buttons) {
 	unfold[i] = 0;
 	i++;
 }
