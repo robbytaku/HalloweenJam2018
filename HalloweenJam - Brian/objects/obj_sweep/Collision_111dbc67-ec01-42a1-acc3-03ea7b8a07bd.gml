@@ -1,3 +1,7 @@
+/*with(other)
+{
+	hp = hp - 0.1;
+}*/
 
 if (other.hit == 0){
 	other.hit = 1;
