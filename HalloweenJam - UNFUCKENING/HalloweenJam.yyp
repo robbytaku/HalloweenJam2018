@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "132a9957-0b80-4e34-afef-15d24be4000a",
+            "Value": {
+                "id": "686ef5c9-92ed-4b8f-8fa9-714d735fc03c",
+                "resourcePath": "rooms\\room_contols\\room_contols.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1364a884-7ef0-4399-b530-28ec88d68ba3",
             "Value": {
                 "id": "22d0bb87-d173-44a9-b2f1-bd8032fef19c",
