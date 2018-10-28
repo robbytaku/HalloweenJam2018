@@ -82,7 +82,7 @@
             "Key": "06709a3a-cde5-453d-8dd1-d9498dd757ea",
             "Value": {
                 "id": "032ad8c9-8116-4615-8214-c15a4bd06235",
-                "resourcePath": "objects\\obj_sekeleton\\obj_sekeleton.yy",
+                "resourcePath": "objects\\obj_skeleton\\obj_skeleton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -99,6 +99,14 @@
             "Value": {
                 "id": "a5e63cb8-1080-40b4-9f14-304481f9505d",
                 "resourcePath": "sprites\\spr_bone\\spr_bone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "12f0e678-c66d-4ae3-9d25-2427abd66c28",
+            "Value": {
+                "id": "3dd40b13-31ec-4776-a268-457ccdfa4001",
+                "resourcePath": "sprites\\spr_skeletonRunning\\spr_skeletonRunning.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,7 +370,7 @@
             "Key": "7de86852-0f69-421b-8196-3cb75e2717c4",
             "Value": {
                 "id": "18bc9947-c81e-4abb-922c-84e716b7339e",
-                "resourcePath": "rooms\\room_graveyard1\\room_graveyard1.yy",
+                "resourcePath": "rooms\\room_mansion\\room_mansion.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -563,6 +571,14 @@
             "Value": {
                 "id": "5504f24a-601a-4710-8d68-07f072573cd0",
                 "resourcePath": "objects\\obj_pillar2\\obj_pillar2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cb0730c5-26e7-409f-9585-48439ce01d09",
+            "Value": {
+                "id": "f4b733e7-ad9f-41d9-b9af-d5b924c88675",
+                "resourcePath": "objects\\obj_potionBreaking\\obj_potionBreaking.yy",
                 "resourceType": "GMObject"
             }
         },
