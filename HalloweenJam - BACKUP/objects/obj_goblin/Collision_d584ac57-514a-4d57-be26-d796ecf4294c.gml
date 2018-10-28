@@ -1,1 +1,4 @@
-game_restart();
+with (other)
+{
+	hp = hp -1;
+}

@@ -14,7 +14,7 @@ cooldown -= 1;
 if (mouse_check_button(mb_right)) && (cooldown < 1)
 {
 	instance_create_layer(x,y,"Bullets",obj_bullet)
-	cooldown = 24;
+	cooldown = 36;
 }
 
 if (mouse_check_button(mb_left)) && (cooldown < 1)
@@ -24,3 +24,4 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
 
 }
 if (hp <= 0) game_restart();
+
