@@ -23,3 +23,4 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
 	cooldown = 24;
 
 }
+if (hp <= 0) instance_destroy();
