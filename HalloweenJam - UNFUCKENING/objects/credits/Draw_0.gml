@@ -12,4 +12,4 @@ draw_text(x,y + 32 + 32 + 32 + 32 + 32 + 32 + 32,"Brian C - Designer");
 draw_text(x,y + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32,"Keith - Sound Designer");
 draw_text(x,y + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32,"Flo - Artist");
 draw_text(x,y + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32,"Bella - Artist");
-draw_text(x,y + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32,"Marine - Artist");
+draw_text(x,y + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32 + 32,"Maureen - Artist");
