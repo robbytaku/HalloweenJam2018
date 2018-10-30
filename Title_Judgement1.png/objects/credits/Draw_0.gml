@@ -5,7 +5,7 @@ draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_text(x,y + 32 + 32,"CREATED BY:");
 draw_text(x,y + 32 + 32 + 32,"Robby - Producer");
-draw_text(x,y + 32 + 32 + 32 + 32,"Vladimir - Head Progammer");
+draw_text(x,y + 32 + 32 + 32 + 32,"Vladimir - Head Programmer");
 draw_text(x,y + 32 + 32 + 32 + 32 + 32,"Sean - Programmer");
 draw_text(x,y + 32 + 32 + 32 + 32 + 32 + 32,"Brian S - Programmer");
 draw_text(x,y + 32 + 32 + 32 + 32 + 32 + 32 + 32,"Brian C - Designer");
