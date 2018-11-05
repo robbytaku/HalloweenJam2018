@@ -1,4 +1,1 @@
-window_set_fullscreen(true)
-
-room_speed = 60
-
+room_speed = 60;
