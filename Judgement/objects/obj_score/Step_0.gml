@@ -1,0 +1,1 @@
+number = instance_number(obj_skeleton) + instance_number(obj_ghost) + instance_number(obj_goblin);

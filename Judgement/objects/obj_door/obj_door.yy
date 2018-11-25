@@ -5,13 +5,13 @@
     "name": "obj_door",
     "eventList": [
         {
-            "id": "15ada3ff-77cc-45f2-a65c-cfe749869ec0",
+            "id": "ad39a9da-eb85-42e4-9e6d-a15a2fd522d5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "4788d694-4bac-4fb8-a4ae-a44fc30450db",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
+            "eventtype": 3,
             "m_owner": "c0181a9e-aa7a-494f-976b-efe5fa570a05"
         }
     ],

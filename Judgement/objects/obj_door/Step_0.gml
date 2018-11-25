@@ -1,0 +1,1 @@
+if (place_meeting(x,y,obj_charBody)) and (obj_score.number == 0) room_goto_next();

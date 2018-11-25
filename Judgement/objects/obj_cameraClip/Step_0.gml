@@ -1,8 +1,8 @@
-//x = obj_charHead.x - (obj_charHead.x - mouse_x)/6;
-//y = obj_charHead.y - (obj_charHead.y - mouse_y)/6;
+x = obj_charHead.x - (obj_charHead.x - mouse_x)/12;
+y = obj_charHead.y - (obj_charHead.y - mouse_y)/12;
 
-x = obj_charBody.x;
-y = obj_charBody.y;
+//x = obj_charBody.x;
+//y = obj_charBody.y;
 
 
 if(shake){

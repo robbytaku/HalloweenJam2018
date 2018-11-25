@@ -1,7 +1,9 @@
-if (keyboard_check(ord("D")) and !place_meeting(x + 8, y, obj_wall) and dead == false) x += 4;
-if (keyboard_check(ord("A")) and !place_meeting(x - 8, y, obj_wall) and dead == false) x -= 4;
-if (keyboard_check(ord("W")) and !place_meeting(x, y - 8, obj_wall) and dead == false) y -= 4;
-if (keyboard_check(ord("S")) and !place_meeting(x, y + 8, obj_wall) and dead == false) y += 4;
+if (keyboard_check(ord("D")) and !place_meeting(x + 8, y, obj_wall) and !place_meeting(x, y + 8, obj_door) and dead == false) x += 4;
+if (keyboard_check(ord("A")) and !place_meeting(x - 8, y, obj_wall) and !place_meeting(x, y + 8, obj_door) and dead == false) x -= 4;
+if (keyboard_check(ord("W")) and !place_meeting(x, y - 8, obj_wall) and !place_meeting(x, y + 8, obj_door) and dead == false) y -= 4;
+if (keyboard_check(ord("S")) and !place_meeting(x, y + 8, obj_wall) and !place_meeting(x, y + 8, obj_door) and dead == false) y += 4;
+
+
 
 
 if (keyboard_check(ord("D"))) sprite_index = spr_bodyRight;
