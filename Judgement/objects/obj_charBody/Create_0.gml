@@ -4,3 +4,4 @@ punchypunch = 1;
 hit = 0; 
 dead = false;
 invincibility = 120;
+pause = false; 
