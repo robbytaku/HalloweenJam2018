@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_pumpkin",
     "eventList": [
-        
+        {
+            "id": "e03dd1f6-24aa-4618-8389-73a3c785146b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "a961ac4d-16db-49c7-b27f-fbd8a0e60956"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
