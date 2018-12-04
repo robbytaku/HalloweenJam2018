@@ -27,7 +27,7 @@ if ((mouse_check_button(mb_left)) and cooldown < 1 and dead == false)
 	punchypunch *= -1;
 }
 
-if ((place_meeting(x,y,obj_skeleton)) or (place_meeting(x,y,obj_bone)) or (place_meeting(x,y,obj_goblin)) or (place_meeting(x,y,obj_ghost))) and (hit == 0)
+if ((place_meeting(x,y,obj_skeleton)) or (place_meeting(x,y,obj_bone)) or (place_meeting(x,y,obj_goblin)) or (place_meeting(x,y,obj_ghost)) or (place_meeting(x,y,obj_skullprojectile))) and (hit == 0)
 {
 	audio_play_sound(snd_hit, 0 ,false);
 	hit = 1;
