@@ -6,7 +6,7 @@ if (pause) {
 	draw_set_font(font_main);
 	draw_set_color(c_white);
 	draw_set_alpha(1);
-	draw_text((view_wport[0])/2, (view_hport[0])/2, "Paused");
+	draw_text_transformed((view_wport[0])/2, (view_hport[0])/2, "Paused", 1.5, 1.5, image_angle);
 }
 
 if (keyboard_check(ord("Q"))) game_end()
