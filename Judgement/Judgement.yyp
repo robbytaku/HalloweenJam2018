@@ -1135,6 +1135,14 @@
             }
         },
         {
+            "Key": "cd937426-6a71-4987-841e-10f4eccd73b8",
+            "Value": {
+                "id": "3ae98a3a-30fc-4803-9f31-53536005c480",
+                "resourcePath": "objects\\obj_skullprojectile\\obj_skullprojectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cf0aedd5-07fd-4191-9230-29b557d23ddb",
             "Value": {
                 "id": "1699411e-3074-48c7-aa0a-69bb2ecee475",
