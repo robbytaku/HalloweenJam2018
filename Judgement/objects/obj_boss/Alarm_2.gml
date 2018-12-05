@@ -1,0 +1,1 @@
+hitpotion = 0;

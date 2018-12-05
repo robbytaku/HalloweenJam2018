@@ -18,6 +18,7 @@ if (spawnitem == 2)
 
 if (spawnitem == 3)
 {
+	movespeed = 0;
 	audio_play_sound(snd_fire, 1, 0);
 	instance_create_layer(x, y + 30, "Bullets", obj_fireball)
 	fireCounter ++;
