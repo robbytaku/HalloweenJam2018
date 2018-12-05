@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "529c586a-8a17-4ab9-9aa9-daba9a8c5291",
+            "Value": {
+                "id": "47a8385b-61fc-454b-b93b-d75401c75ef7",
+                "resourcePath": "sounds\\snd_bosshit\\snd_bosshit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "52f3aeae-6bc3-4da8-9b44-1ce3b959953f",
             "Value": {
                 "id": "17554701-0b6b-4615-8716-89caa2bb56d9",
