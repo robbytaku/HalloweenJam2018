@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "71dbb1de-e811-43d6-ae7f-a4a74df73b6c",
+            "Value": {
+                "id": "f0829c22-7b81-49ca-bb78-e6e505f4f506",
+                "resourcePath": "sounds\\snd_goblinhit\\snd_goblinhit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7270dc19-d0aa-4834-87ac-7674dc56801c",
             "Value": {
                 "id": "5798f82e-a5c4-411d-81bb-511493d423b9",
