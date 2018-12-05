@@ -1,1 +1,1 @@
-hitpotion = 0;
+hitPotion = 0;
