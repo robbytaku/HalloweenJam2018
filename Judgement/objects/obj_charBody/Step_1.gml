@@ -57,5 +57,5 @@ if (dead == true)
 	image_alpha = 0;
 	obj_charHead.image_alpha = 0;
 	if(alarm[1] == -1) alarm[1] = 1; 
-	if(alarm[0] == -1) alarm[0] = 90;
+	if(alarm[0] == -1) alarm[0] = 100;
 }

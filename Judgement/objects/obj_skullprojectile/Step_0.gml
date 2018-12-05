@@ -17,3 +17,6 @@ if (place_meeting(x,y,obj_potionBreaking) and hitPotion == 0)
 }
 
 if (hp <= 0) instance_destroy();
+
+direction = point_direction(x,y,obj_charBody.x, obj_charBody.y);
+image_angle = direction;

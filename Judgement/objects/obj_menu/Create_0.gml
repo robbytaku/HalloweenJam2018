@@ -29,4 +29,4 @@ part_type_alpha3(box_flash, .3, 0.5, 0);
 part_type_blend(box_flash, true);
 part_type_life(box_flash, 20, 20);
 
-audio_play_sound(snd_judgement, 0 , true);
+if !audio_is_playing(snd_judgement) audio_play_sound(snd_judgement, 0, 0);
