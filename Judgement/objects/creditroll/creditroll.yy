@@ -5,16 +5,6 @@
     "name": "creditroll",
     "eventList": [
         {
-            "id": "e292694a-d6e3-4aa6-8387-7139a9fe9e07",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 9,
-            "m_owner": "a12073d5-7449-4526-8691-c0bc1edb341d"
-        },
-        {
             "id": "7e7c2d71-930a-4fc1-a94c-ec1c4e8a2054",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,26 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "a12073d5-7449-4526-8691-c0bc1edb341d"
+        },
+        {
+            "id": "37987570-308c-45f4-8fdb-8acfc1b01f98",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "a12073d5-7449-4526-8691-c0bc1edb341d"
+        },
+        {
+            "id": "f0b32753-b6b7-4fb9-8eeb-5d5c3ef3cc50",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "a12073d5-7449-4526-8691-c0bc1edb341d"
         }
     ],

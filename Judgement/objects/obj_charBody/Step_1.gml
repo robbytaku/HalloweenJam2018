@@ -56,6 +56,6 @@ if (dead == true)
 {
 	image_alpha = 0;
 	obj_charHead.image_alpha = 0;
-	audio_stop_all();
-	room_goto(room_credits);
+	if(alarm[1] == -1) alarm[1] = 1; 
+	if(alarm[0] == -1) alarm[0] = 90;
 }

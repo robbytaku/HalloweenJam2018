@@ -1,0 +1,1 @@
+if (canskip == true) and (keyboard_check(vk_anykey)) room_goto(room_menu);

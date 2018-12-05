@@ -11,7 +11,7 @@ if(shake){
     y += choose(-shakeForce,shakeForce);
     if(shakeDur <= 0){
         shake = false;
-        shakeDur = 12;
+        shakeDur = 15;
     }
 }
 
