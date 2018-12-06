@@ -9,4 +9,5 @@ if (pause) {
 	draw_text_transformed((view_wport[0])/2, (view_hport[0])/2, "Paused", 1.5, 1.5, image_angle);
 }
 
-if (keyboard_check(ord("Q"))) game_end()
+if (keyboard_check(ord("Q"))) { game_end()
+	}
