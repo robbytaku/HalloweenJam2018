@@ -1015,6 +1015,14 @@
             }
         },
         {
+            "Key": "8fce9a62-0a33-4203-bd07-13d888538a6d",
+            "Value": {
+                "id": "ac1e69f6-8933-4195-876f-6941e0c858c5",
+                "resourcePath": "objects\\obj_begingame\\obj_begingame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9074cbeb-2a60-413e-b24e-088e587fabc6",
             "Value": {
                 "id": "2d749394-2b21-4959-b5a8-b63cbf8cbc87",
