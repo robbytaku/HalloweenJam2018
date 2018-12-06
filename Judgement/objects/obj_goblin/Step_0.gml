@@ -11,9 +11,14 @@ if (move_bounce_solid(obj_goblin)){
 
 if (place_meeting(x,y,obj_potionBreaking) and hitPotion == 0)
 {
-	hp -= 2;
+	hp -= 3;
 	alarm[1] = 30;
 	hitPotion = 1; 
 }
 
-if (hp <= 0) instance_destroy();
+if (hp <= 0) 
+{
+	if !audio_is_playing (snd_poof) audio_play_sound(snd_poof,1,0);
+	instance_create_layer(x,y,"Bullets",obj_poof);
+	instance_destroy();
+}

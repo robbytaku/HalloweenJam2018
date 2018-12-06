@@ -6,6 +6,8 @@ if (spawnitem == 1)
 	audio_play_sound(snd_poof, 1, 0);
 	instance_create_layer(800, 770, "Bullets", obj_skeleton)
 	instance_create_layer(1245, 770, "Bullets", obj_skeleton)
+	instance_create_layer(800, 770, "poofers", obj_poof)
+	instance_create_layer(1245, 770, "poofers", obj_poof)
 	image_index += 1;
 	alarm[4] = 40;
 	alarm[0] = cooldown;

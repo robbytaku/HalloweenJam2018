@@ -4,13 +4,13 @@ if (instance_exists(obj_charBody))
 }
 
 
-if (hp <= 0) instance_destroy();
 
-if (place_meeting(x,y,obj_potionBreaking) and hitPotion == 0)
+image_alpha = 0.3 * hp;
+
+if (hp <= 0) 
 {
-	hp -= 2;
-	alarm[1] = 30;
-	hitPotion = 1; 
+	obj_cameraClip.shake = true;
+	if !audio_is_playing (snd_poof) audio_play_sound(snd_poof,1,0);
+	instance_create_layer(x,y,"Bullets",obj_poof);
+	instance_destroy();
 }
-
-image_alpha = 0.2 * hp;

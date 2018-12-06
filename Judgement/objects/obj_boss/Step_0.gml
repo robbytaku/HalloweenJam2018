@@ -7,7 +7,7 @@ if (x < 830) movedir = 0;
 
 if (place_meeting(x,y,obj_potionBreaking) and hitPotion == 0)
 {
-	hp -= 2;
+	hp -= 3;
 	alarm[2] = 30;
 	hitPotion = 1; 
 }
