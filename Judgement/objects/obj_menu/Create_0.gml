@@ -30,3 +30,5 @@ part_type_blend(box_flash, true);
 part_type_life(box_flash, 20, 20);
 
 if !audio_is_playing(snd_judgement) audio_play_sound(snd_judgement, 0, 0);
+
+window_set_cursor(cr_default);
