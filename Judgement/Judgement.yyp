@@ -1143,6 +1143,14 @@
             }
         },
         {
+            "Key": "a66c9682-59cb-4cdb-88d7-31c549559ea6",
+            "Value": {
+                "id": "bef5efa4-88a5-44dd-8662-582460c9df9e",
+                "resourcePath": "sounds\\snd_bossmusic\\snd_bossmusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a76a3e35-af97-4927-aaa7-6b35e1ff1660",
             "Value": {
                 "id": "efb9183c-4123-4876-b68a-a592556dbad6",
