@@ -20,6 +20,7 @@ if (fireCounter >= 3)
 {
 	alarm[1] = 90000;
 	fireCounter = 0;
-	movespeed = 2;
+	if enraged = true movespeed = 3;
+	else movespeed = 2;
 }
 else alarm[1] = 20;

@@ -12,12 +12,21 @@ if (place_meeting(x,y,obj_potionBreaking) and hitPotion == 0)
 	hitPotion = 1; 
 }
 
-if (hp <= 0) instance_destroy();
+if (hp <= 0) && (dead == false)
+{
+	audio_stop_all();
+	audio_sound_pitch(snd_bossdeath, 0.6);
+	audio_play_sound(snd_bossdeath,1,0);
+	instance_destroy();
+	dead = true;
+}
 
 if ((hp <= 20) && (enraged == false))
 {
-	audio_play_sound(snd_goblinhit,1,0);
+	audio_sound_pitch(snd_bossdeath, 1);
+	audio_play_sound(snd_bossdeath,1,0);
 	image_index += 4;
 	cooldown = 90;
+	movespeed = 3;
 	enraged = true;
 }
