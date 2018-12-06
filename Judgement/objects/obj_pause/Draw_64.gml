@@ -7,7 +7,7 @@ if (pause) {
 	draw_set_color(c_white);
 	draw_set_alpha(1);
 	draw_text_transformed((view_wport[0])/2, (view_hport[0]- 64)/2, "Paused", 1.5, 1.5, image_angle);
-	draw_text_transformed((view_wport[0])/2, (view_hport[0]+ 48)/2, "Press 'q' to escape!", 1.5, 1.5, image_angle)
+	draw_text_transformed((view_wport[0])/2, (view_hport[0]+ 48)/2, "Press 'q' to exit!", 1.5, 1.5, image_angle)
 if (keyboard_check(ord("Q"))) { game_end()
 	}
 }
