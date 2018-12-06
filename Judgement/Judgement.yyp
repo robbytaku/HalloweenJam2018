@@ -367,10 +367,10 @@
             }
         },
         {
-            "Key": "3fad30c1-27ee-41e4-bc08-e50994d8aaaf",
+            "Key": "3b5f4bd1-55f9-47eb-a11c-25c9060da047",
             "Value": {
-                "id": "e181f9c5-2f91-42d9-b68d-053b312b0088",
-                "resourcePath": "sprites\\spr_fencepole2\\spr_fencepole2.yy",
+                "id": "af12c2a4-b4b5-46d1-b160-e85d92d19918",
+                "resourcePath": "sprites\\grass___Judgement\\grass___Judgement.yy",
                 "resourceType": "GMSprite"
             }
         },
