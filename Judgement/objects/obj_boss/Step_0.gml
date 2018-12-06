@@ -13,3 +13,11 @@ if (place_meeting(x,y,obj_potionBreaking) and hitPotion == 0)
 }
 
 if (hp <= 0) instance_destroy();
+
+if ((hp <= 20) && (enraged == false))
+{
+	audio_play_sound(snd_goblinhit,1,0);
+	image_index += 4;
+	cooldown = 90;
+	enraged = true;
+}

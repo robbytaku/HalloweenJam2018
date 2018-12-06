@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "1735a9ef-9cb3-44af-b9e2-47940eb6f6e7",
+            "Value": {
+                "id": "21df4f6d-371e-4a8a-b65f-cac15c0d7739",
+                "resourcePath": "sprites\\spr_necromancer\\spr_necromancer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b8b51e4-026a-482b-b851-f7400ca3b150",
             "Value": {
                 "id": "72276c0c-c380-4bd8-9581-85cb9a657d90",
