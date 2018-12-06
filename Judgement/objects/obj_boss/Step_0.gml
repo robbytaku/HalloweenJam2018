@@ -21,12 +21,12 @@ if (hp <= 0) && (dead == false)
 	dead = true;
 }
 
-if ((hp <= 20) && (enraged == false))
+if (hp <= 20) && (enraged == false)
 {
 	audio_sound_pitch(snd_bossdeath, 1);
 	audio_play_sound(snd_bossdeath,1,0);
 	image_index += 4;
-	cooldown = 90;
+	cooldown = 80;
 	movespeed = 3;
 	enraged = true;
 }
