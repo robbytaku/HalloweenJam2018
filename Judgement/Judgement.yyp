@@ -1231,6 +1231,14 @@
             }
         },
         {
+            "Key": "b92dadd7-2aa9-4d5e-a1ff-7615fcd55b16",
+            "Value": {
+                "id": "35519eb9-8cfd-45ba-b8cd-ca5bbe0fd036",
+                "resourcePath": "objects\\obj_bossmusic\\obj_bossmusic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bba39b28-31a9-4774-b03b-bba5808f2460",
             "Value": {
                 "id": "f736cbb5-db3a-4aa1-b0a0-14fa1b4174cc",

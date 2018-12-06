@@ -15,8 +15,7 @@ if (instance_exists(obj_charBody))
 	{
 		direction = point_direction(x,y,obj_charBody.x, obj_charBody.y);
 		image_angle = direction;
-		if (hit == 0) move_towards_point(obj_charBody.x, obj_charBody.y, spd)
-		if (hit == 1) move_towards_point(obj_charBody.x, obj_charBody.y, -spd*1.5)
+		move_towards_point(obj_charBody.x, obj_charBody.y, spd)
 	}
 	else speed = spd;
 }
