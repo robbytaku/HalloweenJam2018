@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "58306687-f1ec-4b49-81b3-51da6bb6c058",
+            "Value": {
+                "id": "fb327978-463b-4fab-bd14-e1990d51eb31",
+                "resourcePath": "sounds\\snd_ghosthit\\snd_ghosthit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "59145f33-b6d3-4404-9e1c-f5b026c7f6b8",
             "Value": {
                 "id": "c47cf9c6-e8b5-4eb0-8fab-8fb3b5f1bcf4",
