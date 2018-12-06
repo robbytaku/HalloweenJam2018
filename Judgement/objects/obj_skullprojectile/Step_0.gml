@@ -10,15 +10,6 @@ if (hp == 1) image_alpha = 0.5;
 
 if (hp <= 0) instance_destroy();
 
-
-
-if (place_meeting(x,y,obj_potionBreaking) and hitPotion == 0)
-{
-	hp -= 2;
-	alarm[1] = 30;
-	hitPotion = 1; 
-}
-
 if (instance_exists(obj_charBody))
 {
 	if (obj_charBody.hp > 0)

@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "1590f80e-6dfe-4456-9b1d-1f262ca21c63",
+            "Value": {
+                "id": "5be61a83-2f5a-4d42-8655-86bea58d0349",
+                "resourcePath": "sounds\\snd_bossdeath\\snd_bossdeath.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "15a921f5-7630-40ca-8871-f550dcd2b9f3",
             "Value": {
                 "id": "54108953-2992-42f6-b713-6abe0edc9eaf",
