@@ -1,4 +1,4 @@
-if (instance_exists(obj_boss))
+if obj_boss.hp > 0
 {
 	x = obj_boss.x;
 	y = obj_boss.y - 80;

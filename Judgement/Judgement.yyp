@@ -911,6 +911,14 @@
             }
         },
         {
+            "Key": "7ad6dbef-1ce3-4eb3-b001-da71e4d260b4",
+            "Value": {
+                "id": "827b44e7-6f40-437e-af07-4c95dcd8073d",
+                "resourcePath": "objects\\creditswin\\creditswin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7b5a6dde-1068-4d22-bdb4-7229073112ad",
             "Value": {
                 "id": "dadd7fae-2c48-418f-88d2-788109dbfcb0",
@@ -1227,6 +1235,14 @@
             "Value": {
                 "id": "d94bc05a-822e-4f42-a487-35f29d48c914",
                 "resourcePath": "objects\\obj_pumpkin\\obj_pumpkin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ac252343-52bf-4f05-b707-ebbf7842c4ac",
+            "Value": {
+                "id": "16762b2d-3e36-4cd0-a590-08204b0e5e30",
+                "resourcePath": "objects\\obj_rtorestart\\obj_rtorestart.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1727,6 +1743,14 @@
             }
         },
         {
+            "Key": "ee092994-d7d7-447e-a719-cbf762669d44",
+            "Value": {
+                "id": "766a44db-201d-4264-aa7b-705d6129872b",
+                "resourcePath": "rooms\\room_creditswin\\room_creditswin.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ee194732-eb64-4e1d-b860-75491b1b9155",
             "Value": {
                 "id": "2ad0e27d-c9b6-4592-a914-d1cf182d9407",
@@ -1820,6 +1844,14 @@
                 "id": "4fa43f57-4218-45f9-be7f-8fdd7c2933ac",
                 "resourcePath": "sprites\\doorway\\doorway.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fcdb0ffb-61e9-48c4-95c2-ccbbc835fc59",
+            "Value": {
+                "id": "8bbe9f05-d37a-46da-a8fe-feb529f98ee9",
+                "resourcePath": "sounds\\snd_keypickup\\snd_keypickup.yy",
+                "resourceType": "GMSound"
             }
         },
         {

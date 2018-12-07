@@ -1,2 +1,2 @@
 audio_stop_all();
-room_goto(room_credits);
+instance_create_layer(x,y,"crosshair",obj_rtorestart);

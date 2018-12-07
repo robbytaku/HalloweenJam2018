@@ -1,1 +1,1 @@
-obj_nextroomarrow.visible = true;
+obj_keyarrow.visible = true;

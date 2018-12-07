@@ -5,7 +5,7 @@ movespeed = 2;
 hp = 40;
 hitPotion = 0;
 hit = 0;
-cooldown = 100;
+cooldown = 120;
 enraged = false;
 dead = false;
 

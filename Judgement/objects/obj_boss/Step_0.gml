@@ -17,7 +17,7 @@ if (hp <= 0) && (dead == false)
 	audio_stop_all();
 	audio_sound_pitch(snd_bossdeath, 0.6);
 	audio_play_sound(snd_bossdeath,1,0);
-	instance_destroy();
+	alarm[5] = 300;
 	dead = true;
 }
 
@@ -26,7 +26,13 @@ if (hp <= 20) && (enraged == false)
 	audio_sound_pitch(snd_bossdeath, 1);
 	audio_play_sound(snd_bossdeath,1,0);
 	image_index += 4;
-	cooldown = 80;
+	cooldown = 100;
 	movespeed = 3;
 	enraged = true;
+}
+
+if dead == true
+{
+	visible = false;
+	cooldown = 9000;
 }
