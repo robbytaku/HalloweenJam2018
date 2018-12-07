@@ -19,7 +19,8 @@ if(point_in_rectangle(mouse_x, mouse_y, x - sprite_width/2, y - sprite_height/2,
 	
 	if(mouse_check_button_released(mb_left)) {
 		image_alpha = 1;
-		room_goto_next()
+		audio_stop_all();
+		room_goto_next();
 		pressed=false;
 	}
 	
