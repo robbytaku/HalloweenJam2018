@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "051dfae1-c3d8-4cae-aa75-902109865fd4",
-            "Value": {
-                "id": "705775c7-c595-487d-94d7-f5ab81471341",
-                "resourcePath": "objects\\obj_path\\obj_path.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0576527b-0f52-4516-929a-c29e5ad60e3e",
             "Value": {
                 "id": "622e8498-24dd-4306-8ff8-cc93399779be",
@@ -356,6 +348,14 @@
                 "id": "1a29767b-6dd3-48ce-b0ab-5553c9fa814a",
                 "resourcePath": "rooms\\room_credits\\room_credits.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "379d3737-b575-40af-993a-887e3b3d55cb",
+            "Value": {
+                "id": "c7182757-7428-406c-8f20-c41501a85c76",
+                "resourcePath": "sprites\\PathAndObjects\\PathAndObjects.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -780,6 +780,14 @@
                 "id": "f0829c22-7b81-49ca-bb78-e6e505f4f506",
                 "resourcePath": "sounds\\snd_goblinhit\\snd_goblinhit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "724fe7cb-dd46-43d2-b47e-d6f05e383009",
+            "Value": {
+                "id": "080c610a-bf3e-4484-a9d7-eb5e853896b9",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
