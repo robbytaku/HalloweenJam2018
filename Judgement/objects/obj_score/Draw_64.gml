@@ -3,10 +3,9 @@ draw_set_font(font_score);
 if (number == 0)
 {
 	draw_set_color(c_white);
-	if (instance_exists(obj_nextroomarrow))
-	
+	if (instance_exists(obj_nextroomarrow)) 
 	{
-	obj_nextroomarrow.visible = true;
+		obj_nextroomarrow.visible = true;
 	}
 }
 

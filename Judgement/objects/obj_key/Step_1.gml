@@ -1,0 +1,1 @@
+obj_nextroomarrow.visible = true;
