@@ -34,5 +34,9 @@ if (hp <= 20) && (enraged == false)
 if dead == true
 {
 	visible = false;
+	instance_destroy(obj_skeleton);
+	instance_destroy(obj_skullprojectile);
+	instance_destroy(obj_bone);
+	instance_destroy(obj_fireball);
 	cooldown = 9000;
 }
