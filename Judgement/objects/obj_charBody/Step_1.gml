@@ -27,7 +27,7 @@ if ((mouse_check_button(mb_left)) and cooldown < 1 and dead == false)
 	punchypunch *= -1;
 }
 
-if ((place_meeting(x,y,obj_skeleton)) or (place_meeting(x,y,obj_goblin)) or (place_meeting(x,y,obj_ghost)) or (place_meeting(x,y,obj_skullprojectile)) or (place_meeting(x,y,obj_fireball)) or (place_meeting(x,y,obj_boss))) and (hit == 0)
+if ((place_meeting(x,y,obj_skeleton)) or (place_meeting(x,y,obj_goblin)) or (place_meeting(x,y,obj_ghost)) or (place_meeting(x,y,obj_skullprojectile)) or (place_meeting(x,y,obj_fireball)) or (place_meeting(x,y,obj_boss))) and (hit == 0) and (dead == false)
 {
 	audio_play_sound(snd_hit, 0 ,false);
 	hit = 1;

@@ -10,9 +10,8 @@ draw_text_transformed((view_wport[0])/2, (view_hport[0]+ 48)/2, "PRESS 'R' TO RE
 	
 if (keyboard_check(ord("R")))  
 {
-	if room != room_basement audio_play_sound(snd_music,1,1);
-	else audio_play_sound(snd_bossmusic,1,1);
 	audio_stop_all();
+	if room != room_basement audio_play_sound(snd_music, 1, 1);
 	room_restart();
 }
 
