@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "2c223765-0c1a-467c-aaea-2af2a197cc42",
+            "Value": {
+                "id": "0f6c9dba-b329-4e0a-bbfc-aa06ef62b63c",
+                "resourcePath": "objects\\obj_goblinmansion3\\obj_goblinmansion3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c39e35c-306e-4797-ad1a-ad103601791c",
             "Value": {
                 "id": "a045519f-b9f7-4ef0-aa7c-0be15aaf473a",
