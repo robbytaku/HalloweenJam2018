@@ -5,3 +5,4 @@ hit = 0;
 dead = false;
 invincibility = 120;
 pause = false; 
+key = false;
