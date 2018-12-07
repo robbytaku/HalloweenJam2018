@@ -1,7 +1,7 @@
-if (keyboard_check(ord("D")) and !place_meeting(x + 8, y, obj_wall) and !place_meeting(x + 8, y, obj_door) and dead == false) x += 4;
-if (keyboard_check(ord("A")) and !place_meeting(x - 8, y, obj_wall) and !place_meeting(x - 8, y + 8, obj_door) and dead == false) x -= 4;
-if (keyboard_check(ord("W")) and !place_meeting(x, y - 8, obj_wall) and !place_meeting(x, y - 8, obj_door) and dead == false) y -= 4;
-if (keyboard_check(ord("S")) and !place_meeting(x, y + 8, obj_wall) and !place_meeting(x, y + 8, obj_door) and dead == false) y += 4;
+if (keyboard_check(ord("D")) and !place_meeting(x + 8, y, obj_wall) and !place_meeting(x + 8, y, obj_door) and dead == false) x += movespeed;
+if (keyboard_check(ord("A")) and !place_meeting(x - 8, y, obj_wall) and !place_meeting(x - 8, y + 8, obj_door) and dead == false) x -= movespeed;
+if (keyboard_check(ord("W")) and !place_meeting(x, y - 8, obj_wall) and !place_meeting(x, y - 8, obj_door) and dead == false) y -= movespeed;
+if (keyboard_check(ord("S")) and !place_meeting(x, y + 8, obj_wall) and !place_meeting(x, y + 8, obj_door) and dead == false) y += movespeed;
 
 
 
@@ -41,6 +41,7 @@ if (hit == 1)
 {
 	image_alpha = 0.5;
 	obj_charHead.image_alpha = 0.5;
+	if (instance_exists(obj_meme)) obj_meme.image_alpha = 0.5;
 	invincibility += 1;
 }
 

@@ -8,3 +8,4 @@ pause = false;
 key = false;
 potioncooldown = 72;
 sweepcooldown = 30;
+movespeed = 4;

@@ -1,1 +1,1 @@
-number = instance_number(obj_skeleton) + instance_number(obj_ghost) + instance_number(obj_goblin);
+number = instance_number(obj_skeleton) + instance_number(obj_ghost) + instance_number(obj_goblin)+ instance_number(obj_goblinmansion3);
