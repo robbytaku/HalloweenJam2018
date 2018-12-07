@@ -1799,6 +1799,14 @@
             }
         },
         {
+            "Key": "e61c23d9-7893-473c-a2ff-f1ba0345d7e6",
+            "Value": {
+                "id": "4bb20dec-db0e-4699-84d1-28b3c86753d0",
+                "resourcePath": "sprites\\spr_crunchertop\\spr_crunchertop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e77dd831-82b5-4fb5-9825-e5ca6ca81c76",
             "Value": {
                 "id": "2e21a7e4-7209-4b9b-8880-838066a28bbc",
