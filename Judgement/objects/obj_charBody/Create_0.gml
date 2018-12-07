@@ -6,3 +6,5 @@ dead = false;
 invincibility = 120;
 pause = false; 
 key = false;
+potioncooldown = 72;
+sweepcooldown = 30;

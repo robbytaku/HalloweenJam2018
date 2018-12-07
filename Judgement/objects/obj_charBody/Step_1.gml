@@ -17,13 +17,13 @@ cooldown -= 1;
 if ((mouse_check_button(mb_right)) and cooldown < 1 and dead == false)
 {
 	instance_create_layer(x,y,"Bullets",obj_bullet)
-	cooldown = 72;
+	cooldown = potioncooldown;
 }
 
 if ((mouse_check_button(mb_left)) and cooldown < 1 and dead == false)
 {
 	instance_create_layer(x,y,"Bullets",obj_sweep)
-	cooldown = 30;
+	cooldown = sweepcooldown;
 	punchypunch *= -1;
 }
 
