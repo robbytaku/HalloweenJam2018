@@ -5,7 +5,10 @@ if (number == 0)
 	draw_set_color(c_white);
 	if (instance_exists(obj_nextroomarrow)) 
 	{
-		obj_nextroomarrow.visible = true;
+		if (!instance_exists(obj_keyarrow))
+		{
+			obj_nextroomarrow.visible = true;
+		}
 	}
 }
 
