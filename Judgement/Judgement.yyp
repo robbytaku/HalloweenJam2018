@@ -1063,6 +1063,14 @@
             }
         },
         {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "c25da29b-d97a-4078-8eea-4a5b418e7154",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
             "Key": "8466a526-3758-49ba-a107-02bebe4d4fa8",
             "Value": {
                 "id": "eb7a6bff-6177-422d-b7d3-7525ff619ac2",
@@ -1115,14 +1123,6 @@
             "Value": {
                 "id": "3efae9e7-73fd-47e4-82a9-a88e5a23f315",
                 "resourcePath": "views\\8b04bd57-68fc-4be0-84ca-ed53a98fa7f3.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "8b2f453d-9314-49b8-bf44-1600e21864c2",
-            "Value": {
-                "id": "8084b994-a8d7-4afd-98f1-3ef08f9a35c5",
-                "resourcePath": "views\\8b2f453d-9314-49b8-bf44-1600e21864c2.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1300,6 +1300,14 @@
                 "id": "4c7b3b8f-ade0-46b9-bc1e-c2b970773c6e",
                 "resourcePath": "objects\\creditroll\\creditroll.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "56aab5bf-eaf4-4d84-b979-f3d6d2f44d4b",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
@@ -1788,6 +1796,14 @@
                 "id": "b22cc6e4-a9df-4309-a336-1d4427afd375",
                 "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "f61e11a4-5b85-48e5-affe-1e4cc40f922c",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
             }
         },
         {

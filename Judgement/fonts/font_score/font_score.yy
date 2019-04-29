@@ -1,7 +1,7 @@
 {
     "id": "6b4f1305-859d-4781-9d73-38649b3d96cb",
     "modelName": "GMFont",
-    "mvc": "1.0",
+    "mvc": "1.1",
     "name": "font_score",
     "AntiAlias": 1,
     "TTFName": "",
@@ -10,6 +10,7 @@
     "charset": 0,
     "first": 0,
     "fontName": "Minecraft",
+    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -1437,13 +1438,16 @@
             }
         }
     ],
-    "image": null,
+    "hinting": 0,
     "includeTTF": false,
+    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         
     ],
     "last": 0,
+    "maintainGms1Font": false,
+    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
